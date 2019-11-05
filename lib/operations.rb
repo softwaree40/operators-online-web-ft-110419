@@ -19,8 +19,6 @@ def not_safe?(speed)
       return false 
    end
 end
-def unsafe?(speed)	
-(speed > 60 || speed < 40) || speed <=50 ? true : false
-end
+
 
 
